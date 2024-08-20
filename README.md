@@ -67,7 +67,6 @@ The dashboard provides a snapshot of key performance indicators (KPIs) including
 
 ![image](https://github.com/user-attachments/assets/2840acea-f3bc-4e1a-abac-662335be58de)
 
-![Chocolate_Sales_Dashboard]("C:\Users\Jonas\OneDrive\Desktop\Chocolate_Sales_Dashboard.png")
 
 ### Detailed Analysis
 
@@ -93,6 +92,32 @@ Total profit stood at $21M, with a profit margin of 60.3%. This high-profit marg
 
 The total number of boxes shipped was 2M, and the total number of shipments was 6K. These metrics, along with the shipment analysis, provide a clear picture of operational performance.
 
-## Conclusion
+# Conclusion
+## What I Learned
+Through this project, I gained deeper expertise in creating dynamic and interactive dashboards using Power BI and DAX. I honed my ability to:
 
-By leveraging Power BI and DAX, the project provides critical insights into sales performance, profitability, and operational efficiency. The measures and visualizations serve as a foundation for ongoing monitoring and strategic decision-making.
+- **Design Comprehensive Dashboards:** I developed a dashboard that integrates multiple key metrics into a cohesive view, enhancing my ability to present data in a way that is both visually engaging and analytically useful.
+-  **Master DAX Functions:** Crafting complex measures such as month-over-month (MoM) changes and custom profit indicators sharpened my skills in DAX, allowing me to perform advanced calculations and create more meaningful insights.
+- **Interpret Business Performance:** By analyzing the sales, shipments, and profit data, I learned how to effectively track business performance, identify trends, and spot potential issues that need to be addressed.
+- **Strategic Decision-Making:** This project reinforced the importance of data-driven decision-making. The insights gleaned from the dashboard are critical for making informed strategic choices, such as adjusting sales strategies, optimizing costs, and setting realistic profit targets.
+
+#### Key Insights
+Several key insights emerged from the analysis:
+
+1. **Sales Trends:** The total sales for the period amounted to $34M, but with a 10.8% decline in MoM sales, it became apparent that there are fluctuations that need to be further investigated, possibly due to seasonality or external market conditions.
+
+2. **Profit Margins:** With a total profit of $21M and a profit margin of 60.3%, the business is maintaining healthy profitability. However, the varying profit percentages among salespersons suggest opportunities for training or strategy adjustments to enhance performance across the board.
+
+3. **Operational Efficiency:** The analysis of boxes shipped and total shipments provided insights into the operational efficiency of the business. Consistent shipment volumes with fluctuating sales indicate potential bottlenecks or inefficiencies in the supply chain that could be optimized.
+
+4. **Salesperson Performance:** The breakdown of sales by salesperson highlighted significant differences in performance, offering an opportunity to recognize top performers and implement targeted improvements for those lagging.
+
+### Insights for Future Improvement
+- **Focus on MoM Analysis:** The importance of tracking month-over-month changes was reinforced, as it helps in understanding the immediate impact of business decisions and market conditions. This can be expanded in future projects to include more detailed trend analysis.
+
+- **Profit Optimization:** While the overall profit margin is strong, there is room to optimize costs and further improve profitability. Future analyses could dive deeper into cost structures and their impact on the bottom line.
+
+- **Employee Training and Incentives:** The varying profit percentages among salespersons suggest that focused training and perhaps revised incentive structures could align performance more closely with business goals.
+
+### Closing Thoughts
+This project was a significant learning experience that not only enhanced my technical skills in Power BI and DAX but also deepened my understanding of how to interpret and act on complex business data. The insights gained are invaluable for driving business success, ensuring that every decision is backed by data-driven analysis. Moving forward, these skills and insights will serve as a strong foundation for tackling more advanced data analytics projects and making strategic decisions that propel business growth.
