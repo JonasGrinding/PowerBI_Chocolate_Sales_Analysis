@@ -31,30 +31,32 @@ The following are some key DAX measures that were created to drive the dashboard
 **MoM Boxes Change %**:
 ```dax
 MoM Boxes Change % =
-var this_month = [Total Boxes]
-var prev_month = CALCULATE([Total Boxes], PREVIOUSMONTH('calendar'[Date]))
+    var this_month = [Total Boxes]
+    var prev_month = CALCULATE([Total Boxes], PREVIOUSMONTH('calendar'[Date]))
 RETURN
-DIVIDE(this_month-prev_month, prev_month)
+    DIVIDE(this_month-prev_month, prev_month)
 ```
 
 **Latest MoM Sales Change %**:
 ```dax
 Latest MoM Sales Change % =
-var ld = [Latest Date]
-var this_month_sales = [Total Sales Latest Month]
-var prev_month_sales = CALCULATE([Total Sales], 'calendar'[Start of Month] = EDATE(ld, -1))
+    var ld = [Latest Date]
+    var this_month_sales = [Total Sales Latest Month]
+    var prev_month_sales = CALCULATE([Total Sales], 'calendar'[Start of Month] = EDATE(ld, -1))
 RETURN
-DIVIDE(this_month_sales-prev_month_sales, prev_month_sales)
+    DIVIDE(this_month_sales-prev_month_sales, prev_month_sales)
 ```
 
 *Profit Target Indicator**:
 ```dax
-Profit Target Indicator = IF([Profit %]>[Profit Target], 2, IF([Profit %]>0.9[Profit Target], 1, 0))
+Profit Target Indicator =
+    IF([Profit %]>[Profit Target], 2, IF([Profit %]>0.9[Profit Target], 1, 0))
 ```
 
 **Total Sales (prev month)**:
 ```dax
-Total Sales (prev month) = CALCULATE([Total Sales], PREVIOUSMONTH('calendar'[Date]))
+Total Sales (prev month) =
+    CALCULATE([Total Sales], PREVIOUSMONTH('calendar'[Date]))
 ```
 
 ## The Dashboard
@@ -63,7 +65,9 @@ Total Sales (prev month) = CALCULATE([Total Sales], PREVIOUSMONTH('calendar'[Dat
 
 The dashboard provides a snapshot of key performance indicators (KPIs) including total sales, total boxes shipped, total shipments, total costs, and total profit. It also tracks profit percentage, LBS (pounds) count, and LBS percentage, enabling a comprehensive understanding of performance.
 
-![Top Paying Roles Skills]("C:\Users\Jonas\OneDrive\Desktop\Chocolate_Sales_Dashboard.png")
+![image](https://github.com/user-attachments/assets/2840acea-f3bc-4e1a-abac-662335be58de)
+
+![Chocolate_Sales_Dashboard]("C:\Users\Jonas\OneDrive\Desktop\Chocolate_Sales_Dashboard.png")
 
 ### Detailed Analysis
 
